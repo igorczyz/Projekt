@@ -1,13 +1,30 @@
 /* style */
 
-$font-brand:
-$font-main:
-$font-text:
+// $font-brand:
+// $font-main:
+// $font-text:
 
-$color-background:
-$color-light:
-$color-dark:
+// $color-background:
+// $color-light:
+// $color-dark:
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
+}
+
+.hero {
+    background-image: url("/images/home-820389_1920.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    color: green
 }
