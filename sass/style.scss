@@ -27,7 +27,10 @@
     top: 50%;
     text-align: center;
     width: 100%;
-    color: green
+    color: white;
+}
+.navbar-brand {
+  
 }
 .services {
     text-align: center;
@@ -58,4 +61,13 @@
 }
 .card {
     border: none;
+}
+.gray-icon {
+    color: white;
+    border: 2px solid gray;
+    padding: 5px;
+    background-color: gray;
+}
+.list {
+    
 }

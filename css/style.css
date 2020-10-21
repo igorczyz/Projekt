@@ -14,12 +14,30 @@
   background-position: center center;
 }
 
+
 .hero-text {
   position: absolute;
   top: 50%;
   text-align: center;
   width: 100%;
-  color: green;
+  color: white;
+}
+.btn {
+  border: 1px solid yellow;
+  color: white;
+  background-color: yellow;
+  width: 250px;
+  height: 65px;
+  font-size: 18px;
+  font-weight: 700;
+}
+h1{
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+h2{
+  font-size: 40px;
+  font-family: fantasy;
 }
 
 .services {
@@ -56,5 +74,20 @@
 
 .card {
   border: none;
+}
+
+.gray-icon {
+  color: white;
+  border: 2px solid gray;
+  padding: 5px;
+  background-color: gray;
+  border-radius: 50%;
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 10px;
+  margin-top: 15px;
 }
 /*# sourceMappingURL=style.css.map */
