@@ -12,8 +12,19 @@
   background-size: cover;
   position: relative;
   background-position: center center;
-}
 
+}
+.navbar-brand {
+  color: gold;
+  font-family: cursive;
+  margin-top: 40px;
+  padding-left: 30px;
+}
+.nav-link {
+  color: white;
+  margin-top: 40px;
+  padding-right: 30px;
+}
 
 .hero-text {
   position: absolute;
@@ -38,6 +49,7 @@ h1{
 h2{
   font-size: 40px;
   font-family: fantasy;
+  margin-bottom: 30px;
 }
 
 .services {
@@ -45,9 +57,15 @@ h2{
   margin-top: 70px;
   margin-bottom: 70px;
 }
+.services-text {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 1px;
+}
 
 .services .container {
   margin-top: 70px;
+  
 }
 
 .services .yellow-icon {
@@ -70,6 +88,12 @@ h2{
 .portfolio-container {
   background-color: #F7F7F7;
   width: 100vw;
+  text-align: center;
+}
+h4 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .card {
