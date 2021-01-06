@@ -14,12 +14,6 @@
   background-position: center center;
 }
 
-.container {
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 .navbar-brand {
   color: gold;
   font-family: cursive;
@@ -52,26 +46,12 @@
 }
 
 h1 {
-  font-size: 70px;
-  margin-bottom: 30px;
+  font-size: 50px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
   font-family: fantasy;
-  margin-bottom: 30px;
-}
-
-.row {
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .services {
@@ -104,14 +84,6 @@ h2 {
   margin-bottom: 15px;
 }
 
-.card-deck {
-  display: -ms-flexbox;
-  display: flex;
-  max-width: 100%;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 .card-img-top {
   height: 300px;
   width: 100%;
@@ -120,16 +92,6 @@ h2 {
 
 .portfolio {
   background-color: #F7F7F7;
-  width: 100vw;
-  text-align: center;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
 }
 
 .portfolio .container {
@@ -172,7 +134,12 @@ h4 {
   font-size: 15px;
 }
 
-.gray-icon {
+.card-body {
+  text-align: center;
+  background-color: white;
+}
+
+.logo-icon {
   color: white;
   border: 2px solid gray;
   padding: 5px;
@@ -190,6 +157,10 @@ h4 {
 .list-inline {
   display: -ms-flexbox;
   display: flex;
+}
+
+.col-md-4 {
+  background-color: white;
 }
 
 @media (max-width: 477px) {
