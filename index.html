@@ -6,21 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="vendor/bootstrap-grid.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="container">
+<body class="">
   <header class="hero">
-    <nav class="row">
-        <a href="#" class="navbar-brand">GOLDEN</a>
-        <ul class="nav">
-          <a class="nav-link" href="#">HOME</a>
-          <a class="nav-link" href="#">SERVICES</a>
-          <a class="nav-link" href="#">PORTFOLIO</a>
-          <a class="nav-link" href="#">ABOUT</a>
-          <a class="nav-link" href="#">CONTACT</a>
+    <nav class="container">
+      <div class="row">
+        <a href="#" class="navbar-brand col-md-3">GOLDEN</a>
+        <ul class="nav col-md-9">
+          <li><a class="nav-link" href="#">HOME</a></li>
+          <li><a class="nav-link" href="#">SERVICES</a></li>
+          <li><a class="nav-link" href="#">PORTFOLIO</a></li>
+          <li><a class="nav-link" href="#">ABOUT</a></li>
+          <li><a class="nav-link" href="#">CONTACT</a></li>
         </ul>
+      </div>
     </nav>
     <div class="hero-text">
       <h2>Welcome To Our Studio!</h2>
@@ -28,35 +32,34 @@
       <button class="btn">TELL ME MORE</button>
     </div>
   </header>
-  <section class="services">
-    <div class="container">
-      <p class="services-text">SERVICES</p>
-      <p class="text-muted">Proin iaculis purus consequat sem cure</p>
-        <div class="row">
-          <div class="col-lg-3">
-            <i class="yellow-icon fas fa-shopping-basket"></i>
-            <h3>E-Commerce</h3>
-            <p class="text-muted">Proin iaculis purus consequat<br>sem cure digni ssim rhoncus<br> posuere odio in tincidunt.</p>
-          </div>
-          <div class="col-lg-3">
-            <i class="yellow-icon fas fa-laptop"></i>
-            <h3>Responsive Web</h3>
-            <p class="text-muted">Proin iaculis purus consequat<br>sem cure digni ssim rhoncus<br> posuere odio in tincidunt.</p>
-          </div>
-          <div class="col-lg-3">
-            <i class="yellow-icon fas fa-lock"></i>
-            <h3>Web Security</h3>
-            <p class="text-muted">Proin iaculis purus consequat<br>sem cure digni ssim rhoncus<br> posuere odio in tincidunt.</p>
-          </div>
-        </div>
+  <section class="services container">
+    <p class="services-text">SERVICES</p>
+    <p class="text-muted-subtitle">Proin iaculis purus consequat sem cure</p>
+      <div class="row">
+      <div class="col-lg-4 col-sm-6 box">
+        <i class="services-icon fas fa-shopping-basket"></i>
+        <h3>E-Commerce</h3>
+        <p class="text-muted">Proin iaculis purus consequatsem cure digni ssim rhoncusposuere odio in tincidunt. Proin iaculis purus consequatsem cure digni ssim rhoncusposuere odio in tincidunt.</p>
+      </div>
+      <div class="col-lg-4 col-sm-6 box">
+        <i class="services-icon fas fa-laptop"></i>
+        <h3>Responsive Web</h3>
+        <p class="text-muted">Proin iaculis purus consequat sem cure digni ssim rhoncus posuere odio in tincidunt. Proin iaculis purus consequatsem cure digni ssim rhoncusposuere odio in tincidunt.</p>
+      </div>
+      <div class="col-lg-4 col-sm-6 box">
+        <i class="services-icon fas fa-lock"></i>
+        <h3>Web Security</h3>
+        <p class="text-muted">Proin iaculis purus consequat sem cure digni ssim rhoncus posuere odio in tincidunt. Proin iaculis purus consequatsem cure digni ssim rhoncusposuere odio in tincidunt.</p>
+      </div>
+      </div>
     </div>
   </section>
   <section class="portfolio">
-    <h4>OUR PORTFOLIO</h4>
-    <p class="text-muted">Proin iaculis purus consequat sem cure</p>
     <div class="container">
+      <h4>OUR PORTFOLIO</h4>
+    <p class="text-muted-subtitle">Proin iaculis purus consequat sem cure</p>
       <div class="row">
-          <div class="col-md-4">
+          <div class="portfolio-box col-md-4 col-sm-6">
             <img class="card-img-top" src="https://i.postimg.cc/DfD3tkcQ/home-office-336378-960-720.png"
               alt="Card image cap">
             <div class="card-body">
@@ -64,7 +67,7 @@
               <p class="card-text">Branding</p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="portfolio-box col-md-4 col-sm-6">
             <img class="card-img-top" src="https://i.postimg.cc/KvBcf8y3/light-bulbs-5488573-960-720.png"
               alt="Card image cap">
             <div class="card-body">
@@ -72,15 +75,14 @@
               <p class="card-text">Print Design</p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="portfolio-box col-md-4 col-sm-6">
             <img class="card-img-top" src="https://i.postimg.cc/XYkrcSGW/images.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Clever Poster</h5>
               <p class="card-text">Print Design</p>
             </div>
           </div>
-        </div>
-          <div class="col-md-4">
+          <div class="portfolio-box col-md-4 col-sm-6">
             <img class="card-img-top" src="https://i.postimg.cc/hPGPmz8S/records-4725349-960-720.png"
               alt="Card image cap">
             <div class="card-body">
@@ -88,7 +90,7 @@
               <p class="card-text">Product Mock-Up</p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="portfolio-box col-md-4 col-sm-6">
             <img class="card-img-top" src="https://i.postimg.cc/SxfhtmfZ/computer-4795762-960-720.png"
               alt="Card image cap">
             <div class="card-body">
@@ -96,7 +98,7 @@
               <p class="card-text">Web Design</p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="portfolio-box col-md-4 col-sm-6">
             <img class="card-img-top" src="https://i.postimg.cc/HWNsQW6X/d6763dc18d957e9059cbc6b2eb2c1a35.jpg"
               alt="Card image cap">
             <div class="card-body">
@@ -104,21 +106,25 @@
               <p class="card-text">Branding</p>
             </div>
           </div>
+        </div> 
       </div>
    </div>
+    </div>
   </section>
   <section class="footer">
-    <div class="container"
-      <div class="text">
-        <p>&copy Copyright 2014 FreebiesXpress.com</p>
-      </div>
-      <div class="icon">
-        <ul class="list-inline">
-          <a href="#"><i class="logo-icon fab fa-twitter"></i></a>
-          <a href="#"><i class="logo-icon fab fa-facebook-f"></i></a></>
-          <a href="#"><i class="logo-icon fab fa-pinterest-p"></i></i></a>
-          <a href="#"><i class="logo-icon fab fa-google"></i></a></>
-        </ul>
+    <div class="container">
+      <div class="row footer-text">
+        <div class="text col-md-4">
+          <p>&copy Copyright 2014 FreebiesXpress.com</p>
+        </div>
+        <div class="icon col-md-8">
+          <ul class="list-inline">
+            <a href="#"><i class="logo-icon fab fa-twitter"></i></a>
+            <a href="#"><i class="logo-icon fab fa-facebook-f"></i></a></>
+            <a href="#"><i class="logo-icon fab fa-pinterest-p"></i></i></a>
+            <a href="#"><i class="logo-icon fab fa-google"></i></a></>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
