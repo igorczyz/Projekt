@@ -106,7 +106,8 @@ h2 {
 .card-img-top {
   height: 300px;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .portfolio {
